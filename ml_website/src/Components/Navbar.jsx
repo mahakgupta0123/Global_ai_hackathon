@@ -13,8 +13,7 @@ const Navbar = () => {
     { label: "About", href: "/About" },
     { label: "Humans", href: "/humans" },
     { label: "Mentors & Judges", href: "/mentors" },
-    { label: "LeaderBoard", href: "/leaderboard" },
-    { label: "AI Buildathon", href: "/buildathon" },
+    { label: "Tracks", href: "/tracks" },
     { label: "FAQs", href: "#" },
   ];
 

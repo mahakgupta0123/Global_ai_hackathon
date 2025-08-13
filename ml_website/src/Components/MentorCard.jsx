@@ -56,7 +56,7 @@ const MentorCard = ({
               target="_blank"
               rel="noopener noreferrer"
               className="flex-shrink-0 ml-3 p-2 rounded-full 
-                       bg-red-500 hover:bg-gray-600 text-white
+                       bg-red-500 group-hover:bg-gray-600 text-white
                        transition-all duration-300 hover:scale-110
                        shadow-lg hover:shadow-gray-500/25"
               aria-label={`Visit ${name}'s LinkedIn profile`}
@@ -80,11 +80,11 @@ const MentorCard = ({
             </p>
           </div>
 
-          {/* Decorative line */}
-          <div
-            className="w-full h-px bg-gradient-to-r from-red-300 via-red-500 to-red-300 
-                        opacity-50 group-hover:opacity-100 transition-opacity duration-300 mt-auto"
-          ></div>
+        
+          <hr
+            className="w-full h-px text-red-500
+                       group-hover:text-gray-600 group-hover:transition-opacity duration-300 mt-auto"
+          ></hr>
         </div>
       </div>
     </div>

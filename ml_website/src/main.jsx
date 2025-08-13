@@ -10,10 +10,9 @@ import {
 } from "react-router-dom";
 import Humans from "./Components/Humans.jsx";
 import Mentor from "./Components/Mentor.jsx";
-import AiBuild from "./Components/AiBuild.jsx";
 import Home from "./Components/Home.jsx";
-import LeaderBoard from "./Components/LeaderBoard.jsx";
 import AppWithPreloader from "./AppwithPreloader.jsx";
+import Tracks from "./Components/Tracks.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -22,8 +21,7 @@ const router = createBrowserRouter(
       <Route path="/about" element={<Home />} />
       <Route path="/humans" element={<Humans />} />
       <Route path="/mentors" element={<Mentor />} />
-      <Route path="/buildathon" element={<AiBuild />} />
-      <Route path="/leaderboard" element={<LeaderBoard />} />
+      <Route path="/tracks" element={<Tracks />} />
     </Route>
   )
 );
