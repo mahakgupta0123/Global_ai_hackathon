@@ -5,7 +5,7 @@ const Rules = () => {
   const rulesData = [
     {
       heading: "Team Formation",
-      content: ` <ul class="list-disc pl-5">
+      content: `<ul class="list-disc pl-5">
         <li>Each team must consist of a maximum of 3 members and a minimum 1 member<b>(inclusion of atleast 1 female member is mandatory)</b></li>
         <li>All participants must register individually and join/create a team through Unstop before the deadline.</li>
       </ul>`,
@@ -17,31 +17,32 @@ const Rules = () => {
     {
       heading: "Hackathon Duration",
       content: `The hackathon will run for 8 continuous hours on <b>23rd August 2025</b>.
-The event will begin and end at the scheduled time. Late submissions will not be accepted.`,
+      The event will begin and end at the scheduled time. Late submissions will not be accepted.`,
     },
     {
       heading: "Theme and Project Scope",
-      content: `
-      <ul class="list-disc pl-5">
-      <li>Projects must focus on solving real-world problems using AI/ML technologies.</li>
-<li>The challenge <b>themes should incorporate 17 UN SDG's Goals.</b></li>
-<li>Teams must build projects from scratch during the hackathon period, no pre-built code allowed, except public libraries or APIs.</li></ul>`,
+      content: `<ul class="list-disc pl-5">
+        <li>Projects must focus on solving real-world problems using AI/ML technologies.</li>
+        <li>The challenge <b>themes should incorporate 17 UN SDG's Goals.</b></li>
+        <li>Teams must build projects from scratch during the hackathon period, no pre-built code allowed, except public libraries or APIs.</li>
+      </ul>`,
     },
     {
       heading: "Tools and Technologies",
-      content: `
-      <ul class="list-disc pl-5"><li>Participants may use any programming languages, frameworks, or AI/ML tools of their choice.</li>
-<li>Use of no-code or low-code AI platforms is permitted.</li>
-<li>Open-source models and datasets are allowed, but must be credited appropriately.</li></ul>`,
+      content: `<ul class="list-disc pl-5">
+        <li>Participants may use any programming languages, frameworks, or AI/ML tools of their choice.</li>
+        <li>Use of no-code or low-code AI platforms is permitted.</li>
+        <li>Open-source models and datasets are allowed, but must be credited appropriately.</li>
+      </ul>`,
     },
     {
       heading: "Submission Requirements",
       content: `<b>Each team must submit:</b>
-<ul class="list-disc pl-5">
-  <li>A GitHub or public repository link with a detailed ReadMe File.</li>
-  <li>A brief write-up (max 500 words) explaining the problem, solution, tech stack, and model details.</li>
-  <li>A demo video (max 3 minutes) explaining the working of the project.</li>
-</ul>`,
+      <ul class="list-disc pl-5">
+        <li>A GitHub or public repository link with a detailed ReadMe File.</li>
+        <li>A brief write-up (max 500 words) explaining the problem, solution, tech stack, and model details.</li>
+        <li>A demo video (max 3 minutes) explaining the working of the project.</li>
+      </ul>`,
     },
   ];
 
@@ -55,11 +56,11 @@ The event will begin and end at the scheduled time. Late submissions will not be
         </div>
       </div>
 
-      {/* Animated Cards */}
-      <div className="overflow-hidden slide-container ml-40 mr-40 mb-20">
-        <div className="flex animate-slide space-x-4">
-          {/* Duplicate set for seamless loop */}
-          <div className="flex justify-center">
+      {/* Cards */}
+      <div className="mb-20">
+        {/* Desktop / Tablet (Horizontal Scroll Animation) */}
+        <div className="hidden md:block overflow-hidden slide-container mx-10">
+          <div className="flex animate-slide space-x-4">
             {rulesData.map((rule, index) => (
               <Card
                 key={index}
@@ -70,6 +71,23 @@ The event will begin and end at the scheduled time. Late submissions will not be
               />
             ))}
           </div>
+        </div>
+
+        {/* Mobile (Vertical Stack) */}
+        <div className="flex flex-col gap-6 md:hidden px-6">
+          {rulesData.map((rule, index) => (
+            <div
+              key={index}
+              className="transform transition duration-500 ease-in-out hover:scale-105"
+            >
+              <Card
+                heading={rule.heading}
+                content={rule.content}
+                height={"auto"}
+                width={"100%"}
+              />
+            </div>
+          ))}
         </div>
       </div>
     </div>
