@@ -33,10 +33,10 @@ export default function Preloader({ onComplete }) {
       className={`fixed inset-0 flex flex-col items-center justify-center z-50 transition-all duration-1000 ${
         fadeOut ? "opacity-0 scale-95" : "opacity-100 scale-100"
       }`}
-      style={{ backgroundColor: "beige" }}
+      style={{ backgroundColor: "#FFF5EE" }}
     >
       {/* Your preloader content */}
-      <div className="text-red-400 text-2xl md:text-3xl font-bold text-center mb-8">
+      {/* <div className="text-red-400 text-2xl md:text-3xl font-bold text-center mb-8">
         Girls Leading Tech Presents
       </div>
 
@@ -44,10 +44,10 @@ export default function Preloader({ onComplete }) {
         <div className="w-55 h-55 rounded-full bg-white/10 backdrop-blur-md flex items-center justify-center relative overflow-hidden">
           <img src="./public/logo_red.png" alt="logo" className="w-50 h-50 object-contain z-10" />
         </div>
-      </div>
+      </div> */}
 
       <div className="flex justify-center items-center mt-5 mb-10">
-        <div className="font-extrabold text-xl sm:text-xl md:text-2xl text-center bg-gray-700 p-6 rounded-4xl border-4 border-red-300 relative inline-block overflow-hidden">
+        <div className="text-shadow-lg/50 text-shadow-red-400 font-extrabold text-xl sm:text-xl md:text-4xl text-center bg-gray-700 p-6 rounded-4xl border-r-9 border-b-9 border-red-300 relative inline-block overflow-hidden">
           <h2 
             className="relative z-10 transition-colors duration-700 ease-in-out"
             style={{

@@ -2,7 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <footer className="bg-red-200 rounded-t-4xl">
+    <footer className="bg-[#FFE4E1] rounded-t-4xl">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         {/* Changed from md:flex to flex to make it always side-by-side */}
         <div className="flex justify-between items-start">

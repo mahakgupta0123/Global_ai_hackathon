@@ -13,6 +13,8 @@ import Mentor from "./Components/Mentor.jsx";
 import Home from "./Components/Home.jsx";
 import AppWithPreloader from "./AppwithPreloader.jsx";
 import Tracks from "./Components/Tracks.jsx";
+import Rules from "./Components/Rules.jsx";
+import Faq from "./Components/Faq.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -22,6 +24,8 @@ const router = createBrowserRouter(
       <Route path="/humans" element={<Humans />} />
       <Route path="/mentors" element={<Mentor />} />
       <Route path="/tracks" element={<Tracks />} />
+      <Route path="/faqs" element={<Faq />} />
+      <Route path="/rules" element={<Rules />} />
     </Route>
   )
 );

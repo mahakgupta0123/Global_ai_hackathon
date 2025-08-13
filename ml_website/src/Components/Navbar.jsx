@@ -13,15 +13,16 @@ const Navbar = () => {
     { label: "About", href: "/About" },
     { label: "Humans", href: "/humans" },
     { label: "Mentors & Judges", href: "/mentors" },
-    { label: "Tracks", href: "/tracks" },
-    { label: "FAQs", href: "#" },
+    { label: "Theme", href: "/tracks" },
+     { label: "Rules", href: "/rules" },
+    { label: "FAQs", href: "/faqs" },
   ];
 
   return (
     <div className="fixed top-4 left-1/2 transform -translate-x-1/2 w-full max-w-7xl px-4 z-30">
       <nav
         className=" border-2 border-red-300 rounded-2xl shadow-lg"
-        style={{ backgroundColor: "beige" }} 
+        style={{ backgroundColor: "#FFF5EE" }} 
       >
         <div className="flex justify-between items-center h-16 px-6">
           {/* Logo */}
@@ -44,8 +45,8 @@ const Navbar = () => {
                 <NavLink
                   className={({ isActive }) => {
                     return isActive
-                      ? "text-red-500 font-bold"
-                      : "text-gray-700 hover:text-red-500 font-medium transition-colors duration-200 px-3 py-3 rounded-lg hover:bg-gray-300";
+                      ? "text-red-400 font-bold"
+                      : "text-gray-700 hover:text-red-400 font-medium transition-colors duration-200 px-3 py-3 rounded-lg hover:bg-gray-300";
                   }}
                   to={item.href}
                 >

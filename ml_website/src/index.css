@@ -3,3 +3,21 @@
 /* body{
     cursor:none;
 } */
+
+@keyframes slide {
+  0% {
+    transform: translateX(20%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-slide {
+  animation: slide 30s linear infinite;
+}
+
+/* Pause animation when hovering over the container */
+.slide-container:hover .animate-slide {
+  animation-play-state: paused;
+}
