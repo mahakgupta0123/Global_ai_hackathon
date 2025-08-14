@@ -11,12 +11,12 @@ export default function Cursor() {
 
   return (
     <div
-      className="fixed top-0 left-0 text-2xl pointer-events-none transition-transform duration-75"
+      className="fixed top-0 left-0 text-2xl pointer-events-none transition-transform duration-50 hidden lg:block" 
       style={{
         transform: `translate(${pos.x}px, ${pos.y}px)`,
       }}
     >
-      ✨
+      🤖
     </div>
   );
 }

@@ -9,7 +9,9 @@ function App() {
   return (
     <>
       <Navbar />
+
       <Outlet />
+      {/* <Cursor /> */}
       <Footer />
     </>
   );

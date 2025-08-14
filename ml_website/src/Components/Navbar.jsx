@@ -19,12 +19,12 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="fixed top-4 left-1/2 transform -translate-x-1/2 w-full max-w-7xl px-4 z-30">
+    <div className="fixed top-9 left-1/2 transform -translate-x-1/2 w-full max-w-7xl px-4 z-30">
       <nav
-        className=" border-2 border-red-300 rounded-2xl shadow-lg"
+        className=" border-3 border-red-300 rounded-4xl shadow-xl shadow-red-200"
         style={{ backgroundColor: "#FFF5EE" }} 
       >
-        <div className="flex justify-between items-center h-16 px-6">
+        <div className="flex justify-between items-center h-20 px-6 ">
           {/* Logo */}
           <a
             href="/About"
@@ -34,7 +34,7 @@ const Navbar = () => {
             <img
               src="./public/logo.png"
               alt="glt-logo"
-              className="h-15 w-15 object-contain"
+              className="h-20 w-20 object-contain"
             />
           </a>
 

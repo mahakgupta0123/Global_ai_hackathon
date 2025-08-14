@@ -37,7 +37,7 @@ export default function Preloader({ onComplete }) {
       style={{ backgroundColor: "#FFF5EE" }}
     >
       <Sparkle
-        gridSize={3}
+        gridSize={10}
         density={30}
         gridColor="rgba(100,116,139,.22)"  // slate-500/22
         dotColor="rgba(100,116,139,.12)"

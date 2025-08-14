@@ -2,7 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#FFE4E1] rounded-t-4xl">
+    <footer className="bg-red-200 rounded-t-4xl">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         {/* Changed from md:flex to flex to make it always side-by-side */}
         <div className="flex justify-between items-start">
@@ -135,7 +135,7 @@ export default function Footer() {
 
           <div className="xl:ml-[40%] flex-grow">
             <div>
-              <h2 className="mb-4 sm:mb-6 mt-4 ml-6 text-2xl sm:text-sm font-bold text-red-500 uppercase">
+              <h2 className="mb-4 sm:mb-6 mt-4 ml-6 text-2xl sm:text-sm font-bold text-red-400 uppercase">
                 Links
               </h2>
               <ul className="text-gray-700 font-medium space-y-2 sm:space-y-3 ml-6 mb-9">
