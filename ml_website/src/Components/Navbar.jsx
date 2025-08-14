@@ -72,7 +72,7 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="lg:hidden border-t border-red-200 rounded-b-2xl" style={{backgroundColor:"beige"}}>
+          <div className="lg:hidden border-t border-red-200 rounded-b-2xl" style={{backgroundColor:"#FFF5EE"}}>
             <ul className="py-4 px-6 space-y-2">
               {navItems.map((item, index) => (
                 <li key={index}>

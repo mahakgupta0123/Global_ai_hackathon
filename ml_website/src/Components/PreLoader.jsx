@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Sparkle from "./Sparkle";
 
 export default function Preloader({ onComplete }) {
   const [progress, setProgress] = useState(0);
@@ -35,6 +36,13 @@ export default function Preloader({ onComplete }) {
       }`}
       style={{ backgroundColor: "#FFF5EE" }}
     >
+      <Sparkle
+        gridSize={3}
+        density={30}
+        gridColor="rgba(100,116,139,.22)"  // slate-500/22
+        dotColor="rgba(100,116,139,.12)"
+        sparkleColor="#ff0010"
+      />
       {/* Your preloader content */}
       {/* <div className="text-red-400 text-2xl md:text-3xl font-bold text-center mb-8">
         Girls Leading Tech Presents

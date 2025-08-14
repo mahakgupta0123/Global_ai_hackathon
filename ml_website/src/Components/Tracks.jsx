@@ -27,7 +27,7 @@ const Tracks = () => {
       </div>
 
       {/* Content + Image */}
-      <div className="flex flex-col lg:flex-row items-center gap-4 lg:gap-5 ml-30">
+    <div className="flex flex-col lg:flex-row items-center gap-4 lg:gap-5 lg:ml-30">
         {customContent.map((item, index) => (
           <Card
             key={index}
