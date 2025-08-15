@@ -48,9 +48,6 @@ const Faq = () => {
             </div>
           </div>
            </div>
-          <p className="text-lg text-gray-700 max-w-2xl mx-auto">
-            Find answers to common questions about our Global AI Buildathon
-          </p>
        
 
         {/* FAQ Items */}

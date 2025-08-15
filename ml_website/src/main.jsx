@@ -9,7 +9,7 @@ import {
   Route,
 } from "react-router-dom";
 import Humans from "./Components/Humans.jsx";
-import Mentor from "./Components/Mentor.jsx";
+import Partners from "./Components/Partners.jsx";
 import Home from "./Components/Home.jsx";
 import AppWithPreloader from "./AppwithPreloader.jsx";
 import Tracks from "./Components/Tracks.jsx";
@@ -22,7 +22,7 @@ const router = createBrowserRouter(
       <Route index element={<Home />} />
       <Route path="/about" element={<Home />} />
       <Route path="/humans" element={<Humans />} />
-      <Route path="/mentors" element={<Mentor />} />
+      <Route path="/partners" element={<Partners />} />
       <Route path="/tracks" element={<Tracks />} />
       <Route path="/faqs" element={<Faq />} />
       <Route path="/rules" element={<Rules />} />

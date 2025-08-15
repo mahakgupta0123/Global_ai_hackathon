@@ -25,7 +25,7 @@ const Home = () => {
   return (
     <div>
       <section className="bg-[#ff5757] pb-50 sm:pb-10">
-      <div className="relative border-t-[220px] sm:border-t-[110px] border-[#ff5757]">
+        <div className="relative border-t-[220px] sm:border-t-[110px] border-[#ff5757]">
           <svg
             viewBox="0 0 1200 20"
             className="w-full h-5"
@@ -58,21 +58,38 @@ const Home = () => {
             />
           </svg>
         </div>
-     
+        <h2 className="text-2xl text-center text-[#FFF5EE] font-black relative z-10 -mt-20 mb-15">
+          8-Hour | 23rd August 2025
+        </h2>
 
-      <div className="flex justify-center items-center mt-20 sm:mt-4">
-        <div className="font-extrabold text-xl sm:text-2xl md:text-3xl text-gray-700 text-center bg-[#FFF5EE] p-6 rounded-4xl border-r-9 border-b-9 border-gray-500  hover:border-5 hover:border-gray-700 hover:transition-all ease-in-out duration-75">
-          <h2 className="relative z-10">
-            <a
-              href="https://unstop.com/hackathons/global-ai-buildathon-chandigarh-group-of-colleges-landran-1531869/"
-              target="_blank"
-            >
-              Register Now on Unstop
-            </a>
-          </h2>
+        <div className="flex sm:flex flex-wrap gap-3 justify-center items-center">
+          <div className="flex justify-center items-center mt-10 sm:mt-3">
+            <div className="font-extrabold text-xl sm:text-2xl md:text-3xl text-gray-700 text-center bg-[#FFF5EE] p-6 rounded-4xl border-r-9 border-b-9 border-gray-500  hover:border-5 hover:border-gray-700 hover:transition-all ease-in-out duration-75">
+              <h2 className="relative z-10">
+                <a
+                  href="https://unstop.com/hackathons/global-ai-buildathon-chandigarh-group-of-colleges-landran-1531869/"
+                  target="_blank"
+                >
+                  Register Now on Unstop
+                </a>
+              </h2>
+            </div>
+          </div>
+
+          <div className="flex justify-center items-center mt-5 sm:mt-3">
+            <div className="font-extrabold text-xl sm:text-2xl md:text-3xl text-gray-700 text-center bg-[#FFF5EE] p-6 rounded-4xl border-r-9 border-b-9 border-gray-500  hover:border-5 hover:border-gray-700 hover:transition-all ease-in-out duration-75">
+              <h2 className="relative z-10">
+                <a
+                  href="https://chat.whatsapp.com/Dhgx45koEuhBiPEURHPSYG"
+                  target="_blank"
+                >
+                  Join Our Community
+                </a>
+              </h2>
+            </div>
+          </div>
         </div>
-      </div>
-       </section>
+      </section>
 
       <div className="relative h-80 mt-10 mb-5 overflow-hidden">
         <Tape
@@ -90,7 +107,7 @@ const Home = () => {
         />
       </div>
 
-      <div  id="#about" className="relative bg-[#ff5757] mt-15">
+      <div id="#about" className="relative bg-[#ff5757] mt-15">
         <svg
           viewBox="0 0 1200 20"
           className="w-full h-5"
