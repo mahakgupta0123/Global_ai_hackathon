@@ -24,8 +24,8 @@ const Home = () => {
 
   return (
     <div>
-      <section className="bg-red-400">
-        <div className="relative mt-45">
+      <section className="bg-[#ff5757] pb-50 sm:pb-10">
+      <div className="relative border-t-[220px] sm:border-t-[110px] border-[#ff5757]">
           <svg
             viewBox="0 0 1200 20"
             className="w-full h-5"
@@ -42,7 +42,7 @@ const Home = () => {
         <img
           src="./public/landingPage.png"
           alt="banner"
-          className="w-full h-[50vh] sm:h-[10%]"
+          className="w-full h-[40vh] sm:h-[65vh] object-fit"
         />
         <div className="relative">
           <svg
@@ -58,10 +58,10 @@ const Home = () => {
             />
           </svg>
         </div>
-      </section>
+     
 
-      <div className="flex justify-center items-center mt-20">
-        <div className="font-extrabold text-xl sm:text-2xl md:text-3xl text-gray-700 text-center bg-red-400 p-6 rounded-4xl border-r-9 border-b-9 border-gray-500  hover:border-0 hover:transition-all ease-in-out duration-75">
+      <div className="flex justify-center items-center mt-20 sm:mt-4">
+        <div className="font-extrabold text-xl sm:text-2xl md:text-3xl text-gray-700 text-center bg-[#FFF5EE] p-6 rounded-4xl border-r-9 border-b-9 border-gray-500  hover:border-5 hover:border-gray-700 hover:transition-all ease-in-out duration-75">
           <h2 className="relative z-10">
             <a
               href="https://unstop.com/hackathons/global-ai-buildathon-chandigarh-group-of-colleges-landran-1531869/"
@@ -72,8 +72,9 @@ const Home = () => {
           </h2>
         </div>
       </div>
+       </section>
 
-      <div className="relative h-80 mt-5 mb-5 overflow-hidden">
+      <div className="relative h-80 mt-10 mb-5 overflow-hidden">
         <Tape
           textList={words}
           rotation="-rotate-6"
@@ -89,7 +90,7 @@ const Home = () => {
         />
       </div>
 
-      <div className="relative bg-red-300 mt-10">
+      <div  id="#about" className="relative bg-[#ff5757] mt-15">
         <svg
           viewBox="0 0 1200 20"
           className="w-full h-5"
@@ -104,20 +105,20 @@ const Home = () => {
         </svg>
       </div>
       <div className="space-x-2">
-        <div className="flex justify-center items-center bg-red-300">
-          <div className="font-extrabold text-xl sm:text-2xl md:text-3xl text-red-400 text-center bg-gray-700 p-6 rounded-4xl border-r-9 border-b-9 border-red-400 hover:text-gray-700 hover:border-gray-500 relative inline-block overflow-hidden group">
+        <div className="flex justify-center items-center bg-red-400 pt-9 w-full">
+          <div className="font-extrabold text-xl sm:text-2xl md:text-3xl text-red-400 text-center bg-gray-700 p-6 rounded-4xl border-r-9 border-b-9 border-red-300 hover:text-gray-700 hover:border-gray-500 relative inline-block overflow-hidden group">
             <h2 className="relative z-10">About</h2>
-            <span className="absolute inset-0 bg-red-400 translate-y-full transition-transform duration-700 ease-in-out group-hover:translate-y-0"></span>
+            <span className="absolute inset-0 bg-red-300 translate-y-full transition-transform duration-700 ease-in-out group-hover:translate-y-0"></span>
           </div>
         </div>
 
-        <div className="xl:flex justify-center sm:flex flex-wrap bg-red-300 p-8">
+        <div className="xl:flex justify-center sm:flex flex-wrap bg-red-400 p-8">
           <Card />
           <Card />
           <Card />
         </div>
       </div>
-      <div className="relative bg-red-300">
+      <div className="relative bg-[#ff5757] mb-10">
         <svg
           viewBox="0 0 1200 20"
           className="w-full h-5"
@@ -131,7 +132,7 @@ const Home = () => {
           />
         </svg>
       </div>
-      <div className="flex justify-center items-center mt-40 mb-10">
+      {/* <div className="flex justify-center items-center mt-40 mb-10">
         <div className="font-extrabold text-xl sm:text-2xl md:text-3xl text-red-400 text-center bg-gray-700 p-6 rounded-4xl border-r-9 border-b-9 border-red-300 hover:text-gray-700 hover:border-gray-500 relative inline-block overflow-hidden group">
           <h2 className="relative z-10">Statistics</h2>
           <span className="absolute inset-0 bg-red-400 translate-y-full transition-transform duration-700 ease-in-out group-hover:translate-y-0"></span>
@@ -141,7 +142,7 @@ const Home = () => {
         <Card height={"150px"} width={"150px"} />
         <Card height={"150px"} width={"150px"} />
         <Card height={"150px"} width={"150px"} />
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -2,7 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <footer className="bg-red-200 rounded-t-4xl">
+    <footer className="bg-red-400 rounded-t-4xl">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         {/* Changed from md:flex to flex to make it always side-by-side */}
         <div className="flex justify-between items-start">
@@ -21,7 +21,7 @@ export default function Footer() {
                 {/* Discord */}
                 <a
                   href="#"
-                  className="text-gray-700 hover:text-gray-500 transition-all duration-500 border-2 border-gray-700 hover:border-gray-500 p-1.5 xs:p-2 sm:p-2.5 md:p-3 lg:p-3.5 xl:p-4 rounded-lg sm:rounded-xl hover:shadow-md flex-shrink-0"
+                  className="text-[#FFF5EE] hover:text-gray-500 transition-all duration-500 border-2 border-[#FFF5EE] hover:border-gray-500 p-1.5 xs:p-2 sm:p-2.5 md:p-3 lg:p-3.5 xl:p-4 rounded-lg sm:rounded-xl hover:shadow-md flex-shrink-0"
                   aria-label="Discord community"
                 >
                   <svg
@@ -39,7 +39,7 @@ export default function Footer() {
                 {/* Twitter */}
                 <a
                   href="#"
-                  className="text-gray-700 hover:text-gray-500 transition-all duration-500 border-2 border-gray-700 hover:border-gray-500 p-1.5 xs:p-2 sm:p-2.5 md:p-3 lg:p-3.5 xl:p-4 rounded-lg sm:rounded-xl hover:shadow-md flex-shrink-0"
+                  className="text-[#FFF5EE] hover:text-gray-500 transition-all duration-500 border-2 border-[#FFF5EE] hover:border-gray-500 p-1.5 xs:p-2 sm:p-2.5 md:p-3 lg:p-3.5 xl:p-4 rounded-lg sm:rounded-xl hover:shadow-md flex-shrink-0"
                   aria-label="Twitter page"
                 >
                   <svg
@@ -61,7 +61,7 @@ export default function Footer() {
                 {/* WhatsApp */}
                 <a
                   href="#"
-                  className="text-gray-700 hover:text-gray-500 transition-all duration-500 border-2 border-gray-700 hover:border-gray-500 p-1.5 xs:p-2 sm:p-2.5 md:p-3 lg:p-3.5 xl:p-4 rounded-lg sm:rounded-xl hover:shadow-md flex-shrink-0"
+                  className="text-[#FFF5EE] hover:text-gray-500 transition-all duration-500 border-2 border-[#FFF5EE] hover:border-gray-500 p-1.5 xs:p-2 sm:p-2.5 md:p-3 lg:p-3.5 xl:p-4 rounded-lg sm:rounded-xl hover:shadow-md flex-shrink-0"
                   aria-label="WhatsApp"
                 >
                   <svg
@@ -79,7 +79,7 @@ export default function Footer() {
                 {/* Instagram */}
                 <a
                   href="#"
-                  className="text-gray-700 hover:text-gray-500 transition-all duration-500 border-2 border-gray-700 hover:border-gray-500 p-1.5 xs:p-2 sm:p-2.5 md:p-3 lg:p-3.5 xl:p-4 rounded-lg sm:rounded-xl hover:shadow-md flex-shrink-0"
+                  className="text-[#FFF5EE] hover:text-gray-500 transition-all duration-500 border-2 border-[#FFF5EE] hover:border-gray-500 p-1.5 xs:p-2 sm:p-2.5 md:p-3 lg:p-3.5 xl:p-4 rounded-lg sm:rounded-xl hover:shadow-md flex-shrink-0"
                   aria-label="Instagram page"
                 >
                   <svg
@@ -97,7 +97,7 @@ export default function Footer() {
                 {/* LinkedIn */}
                 <a
                   href="#"
-                  className="text-gray-700 hover:text-gray-500 transition-all duration-500 border-2 border-gray-700 hover:border-gray-500 p-1.5 xs:p-2 sm:p-2.5 md:p-3 lg:p-3.5 xl:p-4 rounded-lg sm:rounded-xl hover:shadow-md flex-shrink-0"
+                  className="text-[#FFF5EE] hover:text-gray-500 transition-all duration-500 border-2 border-[#FFF5EE] hover:border-gray-500 p-1.5 xs:p-2 sm:p-2.5 md:p-3 lg:p-3.5 xl:p-4 rounded-lg sm:rounded-xl hover:shadow-md flex-shrink-0"
                   aria-label="LinkedIn page"
                 >
                   <svg
@@ -115,7 +115,7 @@ export default function Footer() {
                 {/* YouTube */}
                 <a
                   href="#"
-                  className="text-gray-700 hover:text-gray-500 transition-all duration-500 border-2 border-gray-700 hover:border-gray-500 p-1.5 xs:p-2 sm:p-2.5 md:p-3 lg:p-3.5 xl:p-4 rounded-lg sm:rounded-xl hover:shadow-md flex-shrink-0"
+                  className="text-[#FFF5EE] hover:text-gray-500 transition-all duration-500 border-2 border-[#FFF5EE] hover:border-gray-500 p-1.5 xs:p-2 sm:p-2.5 md:p-3 lg:p-3.5 xl:p-4 rounded-lg sm:rounded-xl hover:shadow-md flex-shrink-0"
                   aria-label="YouTube channel"
                 >
                   <svg
@@ -135,10 +135,10 @@ export default function Footer() {
 
           <div className="xl:ml-[40%] flex-grow">
             <div>
-              <h2 className="mb-4 sm:mb-6 mt-4 ml-6 text-2xl sm:text-sm font-bold text-red-400 uppercase">
+              <h2 className="mb-4 sm:mb-6 mt-4 ml-6 text-2xl sm:text-sm font-bold text-red-900 uppercase">
                 Links
               </h2>
-              <ul className="text-gray-700 font-medium space-y-2 sm:space-y-3 ml-6 mb-9">
+              <ul className="text-[#FFF5EE] font-medium space-y-2 sm:space-y-3 ml-6 mb-9">
                 <li>
                   <Link
                     to="/About"
@@ -186,22 +186,22 @@ export default function Footer() {
         </div>
 
         <div>
-          <h1 className="uppercase font-bold text-5xl sm:text-7xl lg:text-8xl text-center m-4 sm:m-6 lg:m-7 text-shadow-lg/100 text-shadow-gray-900 text-gray-700">
+          <h1 className="uppercase font-bold text-5xl sm:text-7xl lg:text-8xl text-center m-4 sm:m-6 lg:m-7 text-shadow-lg/100 text-shadow-gray-900 text-[#FFF5EE]">
             Global AI Buildathon
           </h1>
         </div>
 
         {/* Divider */}
-        <hr className="my-6 border-gray-700 sm:mx-auto lg:my-8" />
+        <hr className="my-6 border-[#FFF5EE] sm:mx-auto lg:my-8" />
 
         {/* Bottom Section */}
         <div className="flex flex-col  justify-center sm:flex-row sm:items-center sm:justify-center gap-4">
           {/* Copyright */}
-          <span className="text-xs sm:text-sm text-gray-700 text-center sm:text-left">
+          <span className="text-xs sm:text-sm text-[#FFF5EE] text-center sm:text-left">
             © 2025{" "}
             <a
               href="https://hackaura.girlsleadingtech.com/"
-              className="hover:underline hover:text-gray-700 transition-colors font-bold text-center"
+              className="hover:underline hover:text-[#FFF5EE] transition-colors font-bold text-center"
             >
               Girls Leading Tech
             </a>
@@ -209,7 +209,7 @@ export default function Footer() {
             <a
               href="https://www.linkedin.com/in/documentdiarieswithmahak/"
               target="_blank"
-              className="hover:underline hover:text-gray-700 transition-colors font-bold text-center"
+              className="hover:underline hover:text-[#FFF5EE] transition-colors font-bold text-center"
             >
               Mahak
             </a>

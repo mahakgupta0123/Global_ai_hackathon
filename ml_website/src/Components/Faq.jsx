@@ -47,10 +47,11 @@ const Faq = () => {
               <span class="absolute inset-0 bg-red-400 translate-y-full transition-transform duration-700 ease-in-out group-hover:translate-y-0"></span>
             </div>
           </div>
+           </div>
           <p className="text-lg text-gray-700 max-w-2xl mx-auto">
             Find answers to common questions about our Global AI Buildathon
           </p>
-        </div>
+       
 
         {/* FAQ Items */}
         <div className="space-y-4">
